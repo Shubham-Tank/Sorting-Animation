@@ -1,6 +1,7 @@
 const btn = document.querySelector('.btn');
 const container = document.querySelector('.container');
 const select = document.querySelector('.select');
+const sound = new Audio('./sound.mp3')
 let input = ''
 
 let array = ''
@@ -37,6 +38,7 @@ function start() {
                     elem.innerText = item
                     index += 1
                 })
+                sound.play()
             }, count * 700)
             count += 1
         }

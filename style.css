@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(59, 46, 46);
+}
+
+.user{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.input{
+    font-size: 20px;
+    width:340px;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+}
+
+.select{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.element{
+    text-align: center;
+    width: 20px;
+    color: white;
+    background-color: orangered;
+    border-radius: 2px;
+    transition: height 0.3s;
+}
+
+.btn{
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(88, 88, 231);
+    border: 1px solid white;
+    border-radius: 9px;
+    margin: 10px;
+    transition: background-color 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(55, 55, 219); 
+}
+
+.btn:disabled{
+    color: rgb(53, 53, 68);
+    background-color: rgb(110, 110, 190);
+    border: 1px solid rgb(53, 53, 68);
+}
